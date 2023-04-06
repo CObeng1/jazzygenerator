@@ -1,2 +1,2 @@
 # random - jazz
-A program which asks the user for a key and generates a jazz chord progressions in that key.
+This program prompts the user to input a key and then generates jazz chord progressions in the specified key.
