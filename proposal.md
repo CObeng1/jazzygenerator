@@ -2,15 +2,15 @@
 
 ## What will (likely) be the title of your project?
 
-TODO
+#Making_Jazz
 
 ## In just a sentence or two, summarize your project. (E.g., "A website that lets you buy and sell stocks.")
 
-TODO
+#This program asks the user to input a musical key and generates a 2-5-1 chord progression in that key, allowing users to experiment with this popular jazz progression.
 
 ## In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
 
-TODO
+#The 2-5-1 progression is a staple in jazz music and can add a rich harmonic texture to a song. With this program, you can input a key and generate the 2-5-1 chord progression in that key, allowing you to experiment with this popular jazz progression in your own musical compositions.
 
 ## If planning to combine 1051's final project with another course's final project, with which other course? And which aspect(s) of your proposed project would relate to 1051, and which aspect(s) would relate to the other course?
 
