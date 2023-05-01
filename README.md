@@ -1,3 +1,3 @@
 # Youtube Video
-The file below is a brief description to the jazz chord generator program.
+The linked file is a brief description to the process behind creating my website.
 (https://youtu.be/Svsi5SZVBVU)
