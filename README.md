@@ -1,2 +1,3 @@
-# random - jazz
-This program prompts the user to input a key and then generates jazz chord progressions in the specified key.
+# Youtube Video
+The file below is a brief description to the jazz chord generator program.
+file:///Users/k-t/Downloads/Jazz%20Chords.webm
