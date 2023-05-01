@@ -1,0 +1,75 @@
+<!DOCTYPE hmtl>
+<html>
+    <head>
+        <meta charset = "utf-8"
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1"
+        <title>Jazz Chords</title>
+
+        <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+        <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+        <style type = "text/css">
+        body{
+            background-image: url("note.gif");
+        }
+    </style>    
+    </head>
+    <body>
+        <img src = ""
+
+        <py-script 
+        src = "pythonfile.py">
+
+        </py-script>
+        
+        <h1>Jazz Chord Generator</h1>
+
+        <p>
+            Hello there! Welcome to my Jazz Chord Progression Generator! This website is directed to help musicians, or anyone interested, memorize the 2-5-1 chord progression in all 12 keys!
+            Whether you are an musician or simply curious about chord progressions used in jazz, this is website for you! 
+        </p>
+        <hr>
+        <p>
+            <br> <b>Most commonly used in jazz music,</b> <br>
+            the 2-5-1 (ii-V-I) chord progression is harmonic foundation of three consecutive chords which effectively establish a key. 
+            The numeric identifiers in a 2-5-1 progression represent the relationship of each chord to the tonal center—aka the “tonic.” 
+            The progression is a staple in jazz music and can add a rich harmonic texture to a song. 
+            With this program, you can input a key and generate the 2-5-1 chord progression in that key, 
+            allowing you to experiment with this popular jazz progression in your own musical compositions.
+
+
+        </p>
+        
+        <py-script>
+
+            chords = {
+                "C" or "c": ["C", "Dm", "Em", "F", "G", "Am", "Bdim"],
+                "G" or "g": ["G", "Am", "Bm", "C", "D", "Em", "F#dim"],
+                "D" or "d": ["D", "Em", "F#m", "G", "A", "Bm", "C#dim"],
+                "A" or "a": ["A", "Bm", "C#m", "D", "E", "F#m", "G#dim"],
+                "E" or "e": ["E", "F#m", "G#m", "A", "B", "C#m", "D#dim"],
+                "B" or "b": ["B", "C#m", "D#m", "E", "F#", "G#m", "A#dim"],                "F" or "f": ["F", "Gm", "Am", "Bb", "C", "Dm", "Edim"],
+                "Bb": ["Bb", "Cm", "Dm", "Eb", "F", "Gm", "Adim"],
+                 "Eb": ["Eb", "Fm", "Gm", "Ab", "Bb", "Cm", "Ddim"],
+                    "Ab": ["Ab", "Bbm", "Cm", "Db", "Eb", "Fm", "Gdim"],
+                    "Db": ["Db", "Ebm", "Fm", "Gb", "Ab", "Bbm", "Cdim"],
+                    "Gb": ["Gb", "Abm", "Bbm", "Cb", "Db", "Ebm", "Fdim"],
+                }
+    
+                    
+    key = input("Which key do you want the 2-5-1 chord progression in? (e.g C, Bb, F): ")
+    
+    if key not in chords:
+            print("Invalid key.")
+    else:
+        ii_chord = chords[key][1]
+        V_chord = chords[key][4]
+        I_chord = chords[key][0]
+        print("The ii-V-I chord progression in" ,key , "is", ii_chord, ",",
+        V_chord, ",", "and" , I_chord)
+    
+
+        </py-script>
+
+    </body>
+</html>
+
